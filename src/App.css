@@ -1,0 +1,50 @@
+/* Загальні стилі */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Заголовки секцій */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Кнопки для зворотного зв'язку */
+.feedback-button {
+  padding: 10px 20px;
+  margin: 8px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.feedback-button:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Статистика */
+.statistics {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  list-style-type: none;
+  color: #444;
+}
+
+/* Повідомлення */
+.notification {
+  font-size: 1.2rem;
+  color: #999;
+  font-style: italic;
+}
